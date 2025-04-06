@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About - Thomas Milne</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+</head>
+<body>
+  <div class="background"></div>
+
+  <header>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <h1 class="main-title">About Me</h1>
+    <p class="tagline">Get to know me better</p>
+  </header>
+
+  <section class="about-section">
+    <div class="about-box">
+      <h2>Who I Am</h2>
+      <p id="aboutText">Hi, I'm Thomas Milne. I design and build websites with style.</p>
+      <button id="moreBtn">More About Me</button>
+      <div id="moreInfo" style="display: none; margin-top: 15px;">
+        <p>I’m currently studying IT and love making websites. I enjoy gaming and editing videos online.</p>
+      </div>
+
+      <div style="margin-top: 30px;">
+        <button id="surpriseBtn">Surprise Me</button>
+        <p id="funFact" style="margin-top: 15px; display: none;"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery-section">
+    <h2>Photo Gallery</h2>
+    <div class="carousel" id="myGallery">
+      <a href="images/1.jpg" data-fancybox="gallery">
+        <img src="images/1.jpg" alt="Image1" />
+      </a>
+      <a href="images/2.jpg" data-fancybox="gallery">
+        <img src="images/2.jpg" alt="Image2" />
+      </a>
+      <a href="images/3.jpg" data-fancybox="gallery">
+        <img src="images/3.jpg" alt="Image3" />
+      </a>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
